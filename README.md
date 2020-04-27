@@ -6,12 +6,8 @@ Combining Prolog with Python
 
 2. Buka CMD dan pastikan anda berada di direktori C:\>
 
-3. Ketik ```
-python3 -m venv pyswip_env
-```
-dan ```
-pyswip_env\Scripts\activate
-```
+3. Ketik ```python3 -m venv pyswip_env```
+dan ```pyswip_env\Scripts\activate```
 
 4. Pastikan command `swipl` sudah masuk PATH
 
