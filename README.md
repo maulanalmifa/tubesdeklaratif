@@ -14,8 +14,13 @@ dan ```pyswip_env\Scripts\activate```
 5. Install PySwip dengan cara ketik di CMD ```python -m pip install pyswip```
 
 6. Lakukan test menggunakan kode berikut ini
-```python
-    from pyswip import Prolog
-    prolog = Prolog()
-    prolog.assertz("father(michael,john)")
-    ```
+
+```
+from pyswip import Prolog
+prolog = Prolog()
+prolog.assertz("father(michael,john)")
+prolog.assertz("father(michael,gina)")
+list(prolog.query("father(michael,X)")) == [{'X': 'john'}, {'X': 'gina'}]
+for soln in prolog.query("father(X,Y)"):
+print(soln["X"], "is the father of", soln["Y"])
+```
