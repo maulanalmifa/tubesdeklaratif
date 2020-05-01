@@ -1,6 +1,8 @@
 # tubesdeklaratif
 Combining Prolog with Python
 
+Link Video Penggunaan : https://drive.google.com/drive/folders/12bHATswLEl_xxa1vQ1GFIIzM7x_JKneP?usp=sharing
+
 <h4>Instalasi</h4>
 1. Pertama, pastikan anda sudah menginstall SWI-Prolog dan Python dengan arsitektur yang sama (64bit/32bit)
 
